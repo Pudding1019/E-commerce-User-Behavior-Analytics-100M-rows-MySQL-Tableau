@@ -2,6 +2,9 @@
 
 **Dataset**  
 This project uses the public **Taobao User Behavior (UserBehavior)** dataset, originally released by Alibaba Tianchi and mirrored on Kaggle.  
+- **Kaggle mirror**: https://www.kaggle.com/datasets/marwa80/userbehavior  
+- **Official Tianchi page**: https://tianchi.aliyun.com/dataset/649?lang=en-us
+- 
 - **Scale**: ~100,150,807 interaction records from ~987,994 users and ~4,162,024 items, across **9,439 categories**  
 - **Time window**: **2017-11-25 → 2017-12-03** (9 consecutive days)  
 - **Schema (5 columns)**:  
@@ -28,13 +31,10 @@ Built on **Google Cloud SQL (MySQL)**, the project delivers an end-to-end analyt
 
 **Outputs**  
 - **SQL artifacts**: schema, cleaning scripts, metric views (plug-and-play for BI).  
-- **Dashboard (Tableau)**: overview, funnel, retention curves, top paths, and RFM distributions.  
-- **Example insights** (under the project’s definitions & window): overall conversion ~**2.2%**, day-1 retention ~**20%**.
+- **Dashboard (Tableau)**:https://public.tableau.com/app/profile/aiyi.sun7073/viz/Userbehavioranalysis/Dashboard1?publish=yes  
+
 
 ---
 
-## Data Download
 
-- **Kaggle mirror**: https://www.kaggle.com/datasets/marwa80/userbehavior  
-- **Official Tianchi page**: https://tianchi.aliyun.com/dataset/649?lang=en-us  
 
